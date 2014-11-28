@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<ol>
+<% @mycars.each do |car| %>
+<li>
+<%=car.color%>
+<%=car.mdel%>
+<%=car.year%>
+<%=car.brand%>
+</li>
+<%end%>
+
+</ol>
+</body>
+</html>
